@@ -1,4 +1,4 @@
-# Garden Design Planner
+# Garden Planner Database
 A relational database project for managing garden design projects, plant selection, and nursery availability.
 
 This project was created as the final project for Harvard's CS50 course "Introduction to Databases with SQL" using SQLite. The README was originally developed as part of the course requirements and provides a detailed overview of the database design, structure, and implementation decisions.
@@ -225,7 +225,7 @@ Since `availability` represents operational data, plants from a soft-deleted nur
 ### Relationships
 The database entities are connected as follows:
 
-<img src="er.svg" alt="ER diagram of garden design database" width="800">
+<img src="garden_planner_er.svg" alt="ER diagram of garden planner database" width="800">
 
 * Each customer may request multiple garden projects, while each project is linked to a single customer.
 * A garden project can include multiple plant list entries, with each entry belonging to one project.
